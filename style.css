@@ -1,0 +1,123 @@
+html {
+    border-width: 5px;
+    border-color: lightgray;
+}
+  
+body {
+    min-height: 100%; 
+    font-family: "Raleway", sans-serif;
+    max-width: 1000px; 
+    margin: auto;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
+main {
+    padding: 1rem 2rem;
+}
+
+footer {
+    padding: 1rem 2rem;
+}
+
+h1 {
+    color: tomato;
+    font-family: "Manrope", monospace;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: "Manrope", monospace;
+    font-weight: lighter;
+}
+
+img {
+    width: 100%;
+}
+
+time {
+    font-family: "Manrope", monospace;
+    font-weight: lighter;
+    font-size: xx-large;
+    color: lightgray;
+    margin-bottom: 0;
+}
+
+.blog-title {
+   font-size:xx-large;
+   font-family: "Manrope", monospace;
+   font-weight: lighter;
+   margin-top: 0;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row;
+    list-style-type: none;
+    color: lightgray;
+    padding: 0;
+}
+
+#top-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+#top-nav a {
+    color: lightgray;
+    font-size: larger;
+    text-decoration: none;
+}
+
+#bottom-nav {
+    display: flex;
+    justify-content: left;
+    margin-top: -1.5rem;
+}
+
+#bottom-nav li {
+    color: lightgray;
+    padding-left: .25em;
+}
+
+#bottom-nav a {
+    color: tomato;
+    padding-left: .5em;
+    font-size: large;
+    text-decoration: none;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: "Manrope", monospace;
+    font-weight: bold;
+    color: tomato;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid lightgray;
+    text-decoration: none;
+}
+
+article {
+    margin-bottom: 4rem 1px gray;
+    float: none;
+}
+
+article p {
+    font-size: larger;
+}
+
+article p::first-letter {
+    color: lightgray;
+    initial-letter: 4;
+    font-weight: lighter;
+}
+
+#copyright {
+    color: lightgray;
+    margin-bottom: 2rem;
+}
